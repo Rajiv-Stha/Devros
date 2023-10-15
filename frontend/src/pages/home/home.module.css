@@ -1,0 +1,28 @@
+.homepage_container{
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.heroSection{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.heroLeft{
+    flex: 1;
+    background-color: rgb(195, 195, 223);
+}
+.heroLeft h1{
+    font-size: 50px;
+    color: var(--primary_color);
+}
+
+.heroRight{
+    flex: 1;
+    background-color: red;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./navbar.module.css"
+import {IoMdArrowDropdown} from "react-icons/io"
 
 const Navbar = () => {
   return (
@@ -10,12 +11,9 @@ const Navbar = () => {
     <div className={styles.rightContent}>
     <ul className={styles.navList}>
     <li>Home</li>
-    <li>
-    {/* yeslai k garne? select ma rakhne ki dropdown icon halne?  */}
-        <select>
-            <option value="service">Service</option>
-
-        </select>
+    <li className={styles.serviceOption}>
+   <p>Service</p>
+   <IoMdArrowDropdown className={styles.dropdownIcon}/>
     </li>
     <li>
         About
